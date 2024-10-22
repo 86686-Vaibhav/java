@@ -76,7 +76,7 @@ class Invoice{
     }
 }
 
-public class InvoiceTest {
+public class Assignmet3Q1{
     public static void main(String[] args) {
         Invoice invoice = new Invoice("12345", "Hammer", 5, 19.99);
 

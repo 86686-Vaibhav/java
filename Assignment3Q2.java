@@ -47,7 +47,7 @@ class Employee{
     }
 }
 
-public class EmployeeTest{
+public class Assignment3Q2{
     public static void main(String[] args) {
         Employee employee1 = new Employee("Alice", "Smith", 5000);
         Employee employee2 = new Employee("Bob", "Johnson", 6000);
