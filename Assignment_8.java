@@ -90,7 +90,7 @@ public class Assignment_8 {
             System.out.println("0. Exit");
             System.out.print("Enter choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine();  // consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -136,21 +136,21 @@ public class Assignment_8 {
         projectSet.add(new Project(4, "Online Reservation System", 6, 3000000, "Java"));
         projectSet.add(new Project(5, "Handwritten Digit Recognition System", 2, 3000000, "Machine Learning"));
         projectSet.add(new Project(3, "Online Jewelry Shop", 4, 4000000, "Java"));
-        projectSet.add(new Project(2, "Bus Reservation System", 3, 3500000, "JS"));  // Duplicate ID ignored
+        projectSet.add(new Project(2, "Bus Reservation System", 3, 3500000, "JS")); 
         System.out.println("Default projects added.");
     }
 
     private void addProjectFromUser(Scanner scanner) {
         System.out.print("Enter project ID: ");
         int id = scanner.nextInt();
-        scanner.nextLine();  // consume newline
+        scanner.nextLine();  
         System.out.print("Enter project title: ");
         String title = scanner.nextLine();
         System.out.print("Enter team size: ");
         int teamSize = scanner.nextInt();
         System.out.print("Enter project cost: ");
         double projectCost = scanner.nextDouble();
-        scanner.nextLine();  // consume newline
+        scanner.nextLine(); 
         System.out.print("Enter technology: ");
         String technology = scanner.nextLine();
 
